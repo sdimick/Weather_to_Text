@@ -1,4 +1,4 @@
-#I have this scrip run every morning at 5:05am to text me the 18 hour weather
+#I have this script run every morning at 5:05am to text me the 18 hour weather
 #forecast for my zip code in Seattle.
 
 #I scheduled it with crontab on a mac like this
@@ -12,7 +12,7 @@ from bs4 import BeautifulSoup
 import time
 
 #Use selenium and the chromedriver to go to navigate to the hourly forecast online
-#then import the html source as your soup for Beautiful Soup
+#then import the html source code as your soup for Beautiful Soup
 driver = webdriver.Chrome('/Path/to/your/chromedriver/chromedriver')
 driver.get("https://m.weather.com/weather/hourbyhour/graph/Seattle+WA+98122:4:US")
 html = driver.page_source
@@ -56,11 +56,11 @@ for i in range(12, 18):
     forecast3 = forecast3 + "\n" + " " + hours[i] + "   " + newtemps[i] + "    " + newprecip[i]
 
 #Then log into an email account to send the text messages to a phone
-#All phones are connected to an email with the following types of extensions
+#All phones are connected to an email with the following types of extensions:
 #@vtext.com for Verizon
 #@mms.att.net for AT&T
 
-#I also put some sleep time between texts to make sure the come in the correct order
+#I also put some sleep time between texts to make sure they come in the correct order
 server = smtplib.SMTP( "smtp.gmail.com", 587 )
 server.starttls()
 server.login( '[youreamil]@gmail.com', '[yourpassword]' )
