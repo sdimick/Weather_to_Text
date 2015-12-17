@@ -10,7 +10,7 @@ I've included a copy of the script, obviously sans personal details, as well as
 a screenshot of the results.
 
 ## Why Did I Make This?
-    * I took a python class on Coursera and wanted to make use of it
-    * I check the weather every morning for temp and rain and this saves time
-    * When I check the weather first thing in the morning I often forget it and have to
-    reopen the weather app multiple times, this way it's stored on my phone as a text
+* I took a python class on Coursera and wanted to make use of it
+* I check the weather every morning for temp and rain and this saves time
+* When I check the weather first thing in the morning I often forget it and have to
+reopen the weather app multiple times, this way it's stored on my phone as a text
