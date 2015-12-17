@@ -13,7 +13,7 @@ import time
 
 #Use selenium and the chromedriver to go to navigate to the hourly forecast online
 #then import the html source as your soup for Beautiful Soup
-driver = webdriver.Chrome('/Users/mvdimick/Documents/Seth/PythonDev/chromedriver/chromedriver')
+driver = webdriver.Chrome('/Path/to/your/chromedriver/chromedriver')
 driver.get("https://m.weather.com/weather/hourbyhour/graph/Seattle+WA+98122:4:US")
 html = driver.page_source
 driver.quit()
