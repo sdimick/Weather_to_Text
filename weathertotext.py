@@ -2,7 +2,7 @@
 #forecast for my zip code in Seattle.
 
 #I scheduled it with crontab on a mac like this
-#5 5 * * * * python path/to/the/file/weathertotext.py
+#5 5 * * * python path/to/the/file/weathertotext.py
 
 #For this script to work you need to install selenium, the chromedriver, and beautiful
 #soup.
