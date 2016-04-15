@@ -1,4 +1,4 @@
-#I have this script run every morning at 5:05am to text me the 18 hour weather
+#I have this script run every morning at 5:05am to text me the 12 hour weather
 #forecast for my zip code in Seattle.
 
 #I scheduled it with crontab on a mac like this
